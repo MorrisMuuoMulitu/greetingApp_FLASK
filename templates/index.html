@@ -14,7 +14,6 @@
         />
         <br />
         <form action="greet" method="post">
-            <p>What is your name?</p>
             <br />
             {% for message in get_flashed_messages()%}
             <p>{{message}}</p>
